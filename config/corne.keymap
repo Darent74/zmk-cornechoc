@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL                &kp AT          &kp HASH      &kp DLLR           &kp PRCNT               &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB    &mt HOME LEFT           &kp DOWN_ARROW  &kp UP_ARROW  &mt END RIGHT      &kp PAGE_UP             &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp SQT
-&kp DEL    &kp LC(LS(LEFT_ARROW))  &kp LC(C)       &kp LC(V)     &kp LC(LS(RIGHT))  &kp PAGE_DOWN           &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                                   &kp LCTRL     &to 0              &mt LEFT_SHIFT ENTER    &kp SPACE  &to 3      &kp RALT
+&kp GRAVE  &kp EXCL                &kp AT                    &kp HASH              &kp DLLR           &kp PRCNT               &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB    &mt HOME LEFT           &mt PAGE_DOWN DOWN_ARROW  &mt PAGE_UP UP_ARROW  &mt END RIGHT      &none                   &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp SQT
+&kp DEL    &kp LC(LS(LEFT_ARROW))  &kp LC(X)                 &kp LC(C)             &kp LC(LS(RIGHT))  &kp LC(V)               &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                                             &kp LCTRL             &to 0              &mt LEFT_SHIFT ENTER    &kp SPACE  &to 3      &kp RALT
             >;
         };
 
